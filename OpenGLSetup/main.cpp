@@ -30,7 +30,7 @@ int main(void)
     if (!glfwInit())
         return -1;
 
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "OpenGL Logic Gates", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "OpenGL Circuit Designer", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
